@@ -50,7 +50,7 @@ main{
 }
 
 img{
-    width: 45%;
+    width: 50%;
     height: auto;
 }
 
@@ -81,6 +81,9 @@ button{
 .div3{
     margin-top: 60px;
 }
+.inner-div{
+    padding-top: 10%;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -103,6 +106,12 @@ button{
     }
     [class*="buttons"]{
         margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 1580px) {
+    [class*="container-custom"]{
+        margin-left: 170px;
+        margin-right: 170px;
     }
 }
 

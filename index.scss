@@ -131,7 +131,20 @@ img {
             display: block;
         }
     }
+    @media only screen and (min-width: 1580px) {
 
+        /* ask about this line*/
+        /* For mobile phones: */
+        [class*="main-div"] {
+            gap: 130px;
+        }
+        [class*="details-div"] {
+            width: 350px;
+        }
+        img{
+            height: 200px;
+        }
+    }
     a:link {
         text-decoration: none;
         color: black;

@@ -7,8 +7,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 @font-face {
   font-family: Nunito Sans;
   src: url(Nunito_Sans/NunitoSans-Regular.ttf);
@@ -116,6 +114,19 @@ img {
   [class*=Search] {
     width: 80%;
     display: block;
+  }
+}
+@media only screen and (min-width: 1580px) {
+  /* ask about this line*/
+  /* For mobile phones: */
+  [class*=main-div] {
+    gap: 130px;
+  }
+  [class*=details-div] {
+    width: 350px;
+  }
+  img {
+    height: 200px;
   }
 }
 a:link {
